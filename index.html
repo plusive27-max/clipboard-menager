@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Clipboard Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Draggable title bar -->
+  <header class="titlebar">
+    <span class="titlebar-title">📋 Clipboard</span>
+    <div class="titlebar-actions">
+      <button id="clear-btn" title="Clear history">🗑</button>
+      <button id="close-btn" title="Hide">✕</button>
+    </div>
+  </header>
+
+  <!-- Search -->
+  <div class="search-wrap">
+    <input type="text" id="search" placeholder="Search clips…" autocomplete="off" />
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tab active" data-tab="all">All</button>
+    <button class="tab" data-tab="pinned">📌 Pinned</button>
+  </div>
+
+  <!-- List -->
+  <main class="clip-list" id="clip-list">
+    <div class="empty-state" id="empty-state">
+      <p>Copy something to get started</p>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
