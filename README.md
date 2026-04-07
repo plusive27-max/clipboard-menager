@@ -2,7 +2,7 @@
 
 A lightweight, privacy-first clipboard history manager for Windows that lives quietly in your system tray.
 
-
+![GitHub release](https://img.shields.io/github/v/release/plusive27-max/clipboard-menager)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -19,7 +19,7 @@ A lightweight, privacy-first clipboard history manager for Windows that lives qu
 
 ## 📥 Download
 
-Head to the [Releases](https://github.com/plusive27-max/clipboard-menager.git/releases) page and download the latest `.exe` — no install required, just run it.
+Head to the [Releases](https://github.com/plusive27-max/clipboard-menager/releases/tag/v1.0.0) page and download the latest `.exe` — no install required, just run it.
 
 ## 🛠 Built With
 
